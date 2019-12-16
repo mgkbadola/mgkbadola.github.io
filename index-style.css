@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+    font-family: Ubuntu, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h1,table{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-radius: 10px;
+}
+thead{
+    font-size: larger;
+}
+tbody{
+    font-size: large;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(35deg, #a1c4fd , #c2e9fb);
+    margin: 0;
+    background-repeat: no-repeat;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    background-color: black;
+    color: beige;
+}
+td{
+    background-color: antiquewhite;
+}
+ul{
+    font-size: large;
+    padding-bottom: 5px;
+}
+#main-frame{
+    padding: 20px;
+}
+#SIH{
+    color: black;
+    font-style: oblique;
+}
+a.github-prof{
+    color: black;
+}
