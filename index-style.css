@@ -9,7 +9,8 @@ h1,table{
     text-align: center;
 }
 table{
-    width: 100%;
+    margin: auto;
+    min-width: 75%;
     border-radius: 10px;
 }
 thead{
@@ -19,7 +20,7 @@ tbody{
     font-size: large;
 }
 body{
-    background-image: linear-gradient(35deg, #a1c4fd , #c2e9fb);
+    background-image: linear-gradient(35deg, #a1c4fd , #c2e9fb 75%);
     margin: 0;
 }
 table, th, td {
@@ -45,4 +46,10 @@ ul{
 }
 a.github-prof{
     color: black;
+}
+#tlist{
+    text-align: center;
+}
+li{
+    margin: 2px 0;
 }
