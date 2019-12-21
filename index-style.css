@@ -2,10 +2,24 @@ html{
     min-height: 100%;
     font-family: Roboto, Ubuntu, sans-serif;
 }
+body{
+    background-image: linear-gradient(315deg, #89f7fe , #66a6ff);
+    margin: 0;
+}
+#main-frame{
+    padding: 10px;
+}
 h1{
     font-size: 50px;
 }
-h1,table{
+h2{
+    font-size: 25px;
+}
+#SIH{
+    color: black;
+    font-style: oblique;
+}
+#tlist{
     text-align: center;
 }
 table{
@@ -15,40 +29,25 @@ table{
 }
 thead{
     font-size: larger;
-}
-tbody{
-    font-size: large;
-}
-body{
-    background-image: linear-gradient(315deg, #89f7fe , #66a6ff);
-    margin: 0;
-}
-table, th, td {
-    border: 1px solid black;
-}
-th{
     background-color: black;
     color: beige;
 }
-td{
-    background-color: antiquewhite;
-}
-ul{
+tbody{
     font-size: large;
-    padding-bottom: 5px;
-}
-#main-frame{
-    padding: 10px;
-}
-#SIH{
-    color: black;
-    font-style: oblique;
+    background-color: antiquewhite;
 }
 a.github-prof{
     color: black;
 }
-#tlist{
+table, th, td {
+    border: 1px solid black;
+}
+h1,table{
     text-align: center;
+}
+ul{
+    font-size: large;
+    padding-bottom: 5px;
 }
 li{
     margin: 2px 0;
